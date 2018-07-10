@@ -1,0 +1,27 @@
+{
+  "name": "mobike-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "mocha -r ts-node/register tests/**/*.spec.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danjohnson95/mobike-js.git"
+  },
+  "author": "Dan Johnson <dan@danj.eu>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danjohnson95/mobike-js/issues"
+  },
+  "homepage": "https://github.com/danjohnson95/mobike-js#readme",
+  "devDependencies": {
+    "@types/chai": "^4.1.4",
+    "@types/mocha": "^5.2.4",
+    "@types/node": "^10.5.2",
+    "ts-node": "^7.0.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
