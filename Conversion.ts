@@ -7,7 +7,7 @@ export enum Unit {
 }
 
 export class Conversion {
-    public static convert (unit: Unit, value: number) {
+    public static convert (unit: Unit, value: number): number {
         switch (unit) {
             case Unit.Meters:
                 return value
@@ -22,19 +22,19 @@ export class Conversion {
         }
     }
 
-    private static convertMetersToKilometers (value: number) {
+    private static convertMetersToKilometers (value: number): number {
         return Number((value * 0.001).toFixed(3))
     }
 
-    private static convertMetersToMiles (value: number) {
+    private static convertMetersToMiles (value: number): number {
         return Number((value * 0.000621371).toFixed(3))
     }
 
-    private static convertMetersToYards (value: number) {
+    private static convertMetersToYards (value: number): number {
         return Number((value * 1.09361).toFixed(3))
     }
 
-    private static convertMetersToFeet (value: number) {
+    private static convertMetersToFeet (value: number): number {
         return Number((value * 3.28084).toFixed(3))
     }
 }
