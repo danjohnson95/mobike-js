@@ -23,18 +23,18 @@ export class Conversion {
     }
 
     private static convertMetersToKilometers (value: number) {
-
+        return Number((value * 0.001).toFixed(3))
     }
 
     private static convertMetersToMiles (value: number) {
-
+        return Number((value * 0.000621371).toFixed(3))
     }
 
     private static convertMetersToYards (value: number) {
-
+        return Number((value * 1.09361).toFixed(3))
     }
 
     private static convertMetersToFeet (value: number) {
-
+        return Number((value * 3.28084).toFixed(3))
     }
 }

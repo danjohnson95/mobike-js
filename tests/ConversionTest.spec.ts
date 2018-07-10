@@ -12,19 +12,19 @@ describe('Conversion', () => {
     it('should convert meters to kilometers', () => {
         const km = Conversion.convert(Unit.Kilometers, 2300)
 
-        expect(km).to.equal(13)
+        expect(km).to.equal(2.3)
     })
 
     it('should convert meters to miles', () => {
         const miles = Conversion.convert(Unit.Miles, 360)
 
-        expect(miles).to.equal(0.223)
+        expect(miles).to.equal(0.224)
     })
 
     it('should convert meters to yards', () => {
         const yards = Conversion.convert(Unit.Yards, 250)
 
-        expect(yards).to.equal(273.403)
+        expect(yards).to.equal(273.402)
     })
 
     it('should convert meters to feet', () => {
