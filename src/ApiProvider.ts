@@ -1,5 +1,4 @@
 import * as HTTP from 'https'
-
 import * as QueryString from 'querystring'
 import { MobikeResponse } from './MobikeResponse';
 

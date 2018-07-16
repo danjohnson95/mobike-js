@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.ts",
   "scripts": {
+    "build": "webpack-cli",
     "test": "mocha -r ts-node/register tests/**/*.spec.ts"
   },
   "repository": {
@@ -22,7 +23,10 @@
     "@types/node": "^10.5.2",
     "chai": "^4.1.2",
     "mocha": "^5.2.0",
+    "ts-loader": "^4.4.2",
     "ts-node": "^7.0.0",
-    "typescript": "^2.9.2"
+    "typescript": "^2.9.2",
+    "webpack": "^4.16.0",
+    "webpack-cli": "^3.0.8"
   }
 }

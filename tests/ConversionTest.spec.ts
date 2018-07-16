@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import { Conversion, Unit } from '../Conversion'
+import { Conversion, Unit } from '../src/Conversion'
 import 'mocha';
 
 describe('Conversion', () => {
